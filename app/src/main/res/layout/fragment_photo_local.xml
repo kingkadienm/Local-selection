@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/NavPage"
+    android:background="@color/ytx_album_bg">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/folder_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="none" />
+
+    <RelativeLayout
+        android:id="@+id/rl_view"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#dd393a3e"
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:id="@+id/folder_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+
+            <TextView
+                android:id="@+id/folder_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所有照片"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/BasicPaddingSize"
+                android:background="@null"
+                android:paddingTop="@dimen/SmallPadding"
+                android:src="@drawable/ytx_picker_text_indicator_selector"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ExpandableListView
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:groupIndicator="@drawable/selete_group"
+        android:dividerHeight="0.5dp"
+         />
+
+    <LinearLayout
+        android:id="@+id/load_local_file_pro_view"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/loading"
+            android:textColor="#ff000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/load_local_file_empty_view"
+        layout="@layout/yhc_select_local_empty_view" />
+
+        <android.support.v7.widget.RecyclerView
+            android:visibility="visible"
+            android:id="@+id/document_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+</FrameLayout>

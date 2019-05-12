@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="ytx_album_bg">#ff191919</color>
+
+    <color name="solarTextColor">#000000</color>
+    <color name="lunarTextColor">#AEAEAE</color>
+    <color name="solarTermTextColor">#B2B2B2</color>
+    <color name="lunarHolidayTextColor">#B2B2B2</color>
+    <color name="solarHolidayTextColor">#B2B2B2</color>
+    <color name="hintColor">#999999</color>
+    <color name="selectCircleColor">#39AF81</color>
+    <color name="todaySolarTextColor">#39AF81</color>
+    <color name="holidayColor">#39AF81</color>
+    <color name="workdayColor">#EC7230</color>
+    <color name="pointColor">#B2B2B2</color>
+    <color name="hollowCircleColor">#B2B2B2</color>
+    <color name="white">#ffffff</color>
+    <color name="disabledColor">#999999</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="yhc_empty_view_font_color">#aaaaaa</color>
+    <item name="ytx_switch_btn_on_color" type="color">@color/ytx_color</item>
+    <color name="ytx_color">#212540</color>
+
+</resources>

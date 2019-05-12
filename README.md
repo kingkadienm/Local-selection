@@ -1,2 +1,0 @@
-# Local-selection
-Local selection

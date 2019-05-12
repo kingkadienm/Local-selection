@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_item"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@color/white">
+
+
+    <CheckBox
+        android:id="@+id/isCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:button="@null"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/down_item_image"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/isCheck"
+        android:scaleType="fitXY"
+        android:src="@drawable/pictures_no" />
+
+
+    <TextView
+        android:id="@+id/down_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/down_item_image"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:maxLines="1"
+        android:text="文件名"
+        android:textColor="#ff000000"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/down_item_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/down_item_title"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/down_item_image"
+        android:maxLines="1"
+        android:text="某某某某"
+        android:textColor="#bfc2cc"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/radioImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/yhc_radio_choose"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5px"
+        android:layout_alignParentBottom="true"
+        android:background="#B0BBC5" />
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="WindowStyle">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="NavPage">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/login_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+</resources>
